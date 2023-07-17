@@ -4,7 +4,11 @@
     <h2>Redirect to a Webpage</h2>
     <p>The replace() method replaces the current document with a new one:</p>
 
-    <button onclick="redirect()">Replace document</button>
+    <button onclick="redirect()">Redirect using timer</button>
+
+    <br />
+
+    <button onclick="myFunction()">Redirect manual</button>
 
     <br />
     <a href="https://www.dazn.com" rel="nofollow">DAZN</a>
@@ -22,8 +26,9 @@
       }
 
       function myURL() {
-        document.location.href = "https://www.dazn.com";
+        window.location.href = "https://www.dazn.com";
       }
-    </script>
+
+</script>
   </body>
 </html>
