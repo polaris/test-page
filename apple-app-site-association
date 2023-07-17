@@ -1,0 +1,28 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "P5TG9EFL5D.com.dazn.theApp",
+        "paths": [
+          "/",
+          "*/home/*",
+          "*/picks/*",
+          "*/schedule",
+          "*/standings",
+          "*/sport/*",
+          "*/competition/*",
+          "*/competitor/*",
+          "*/show/*",
+          "*/tournament/*",
+          "*/tournamentcalendar/*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "P5TG9EFL5D.com.dazn.theApp"
+    ]
+  }
+}
