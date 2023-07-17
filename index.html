@@ -4,7 +4,7 @@
     <h2>Redirect to a Webpage</h2>
     <p>The replace() method replaces the current document with a new one:</p>
 
-    <button onclick="myFunction()">Replace document</button>
+    <button onclick="redirect()">Replace document</button>
 
     <br />
     <a href="https://www.dazn.com" rel="nofollow">DAZN</a>
@@ -14,9 +14,16 @@
         window.location.href = "https://www.dazn.com";
       }
 
-      // setTimeout(() => {
-      //   window.location.href = "https://www.dazn.com";
-      // }, 5000)
+      function redirect() {
+        setTimeout(myURL, 5000);
+        var result = document.getElementById("result");
+        result.innerHTML =
+          "<b> The page will redirect after delay of 5 seconds";
+      }
+
+      function myURL() {
+        document.location.href = "https://www.dazn.com";
+      }
     </script>
   </body>
 </html>
